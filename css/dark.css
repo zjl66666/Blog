@@ -3,7 +3,7 @@
     filter: brightness(0.7);
 }
 
-/* snote夜间模式 */
+/* snote夜间模式4c4948 */
 .night .tip{
     color: #4c4948;
 }
@@ -64,7 +64,7 @@ body.DarkMode p,
 body.DarkMode pre,
 body.DarkMode .markmap-container svg g div,
 body.DarkMode .read .bg-cover .description {
-    color: rgba(255, 255, 255, 0.6); /*.85为透明度，可依据需求修改*/
+    color: rgba(255, 255, 255 ,0.7); /*.85为透明度，可依据需求修改*/
 }
 body.DarkMode .fArticleTitle, body.DarkMode .fArticleAuthor, body.DarkMode .fArticleUpdate {
     color: rgba(255, 255, 255, 0.6) !important;
@@ -78,7 +78,7 @@ body.DarkMode blockquote {
     color: rgba(255, 255, 255, 0.6);
 }
 body.DarkMode .nav-menu li .sub-nav li a {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgba(225, 225, 255, 1) !important;   /*. 我的改动 */
 }
 body.DarkMode th td li {
     color: rgba(255, 255, 255, 0.6) !important;
@@ -88,11 +88,11 @@ body.DarkMode .prev-next .article-badge {
     background-color: rgba(255, 255, 255, 0.6);
 }
 body.DarkMode header .side-nav .menu-list a {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgba(124, 252, 0, 0.8) !important;  /*. 我的改动 */
 }
 
 body.DarkMode .mobile-menu-list a i {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgba(215, 205, 60, 1) !important; /*. 我的改动 */
 }
 body.DarkMode .bg-color {
     background-image:linear-gradient(to right, #3b3b3b 0, rgb(59 59 59) 100%);
@@ -334,7 +334,7 @@ body.DarkMode #waline textarea {
     background-color: rgba(255, 255, 255, 0);
     resize: vertical;
     caret-color: red;
-    color: #b8abab;
+    color: #b0abbb;  /* #b0abbb我的修改 */
     white-space: pre-line
 }
 /* 黑夜模式动画 */
