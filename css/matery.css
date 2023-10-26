@@ -2128,7 +2128,7 @@ p.search-result-summary{
 .m-nav-show,
 .m-nav-item > a:hover {
     color: #FFF;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(0, 0, 0, 100%);
 }
 
 .m-nav-show > a:before,
